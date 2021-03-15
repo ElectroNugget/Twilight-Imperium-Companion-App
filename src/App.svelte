@@ -1,13 +1,28 @@
+<!-- Main page. App launches from here. Not sure how to route to other components/pages yet. -->
+
 <script>
 	export let name;
+	import Navbar from "./Navbar.svelte"
 </script>
 
-<main>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
-</main>
+<Navbar/>
+
+<body>
+	<main>
+		<h1>TWILIGHT IMPERIUM 4th Edition</h1>
+		<h3>Companion App</h3>
+
+		<button>Start Game</button>
+		<!-- <p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p> -->
+	</main>
+</body>
 
 <style>
+	/* No idea how to make this work. :P */
+	/* body {
+		background-image: url("../../images/BG_4kSpaceIllus.jpg");
+	} */
+	
 	main {
 		text-align: center;
 		padding: 1em;
