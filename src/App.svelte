@@ -1,7 +1,7 @@
 <!-- Main page. App launches from here. Not sure how to route to other components/pages yet. -->
 
 <script>
-	export let name;
+	// This is how you import a component. :P
 	import Navbar from "./Navbar.svelte"
 </script>
 
@@ -12,7 +12,7 @@
 		<h1>TWILIGHT IMPERIUM 4th Edition</h1>
 		<h3>Companion App</h3>
 
-		<button>Start Game</button>
+		<button href="/GameSetup">Start Game</button>
 		<!-- <p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p> -->
 	</main>
 </body>
